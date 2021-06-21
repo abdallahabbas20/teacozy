@@ -47,11 +47,14 @@ nav h3 {
 
 
 }
-#father {
+.father {
     display: flex;
     justify-content: center;
     padding-top: 75px;
+    flex-wrap: wrap;
+
 }
+
 #mission {
     display: flex;
     justify-content: center;
@@ -66,4 +69,75 @@ nav h3 {
 .banner {
     background-color: black;
     width: 100%
+}
+
+#section2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#section2 h2 {
+    width: 100%;
+}
+
+#section2 h4 {
+    width: 100%;
+}
+
+#monthly-tea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    width: 1200px;
+}
+
+.monthly-tea-img {
+    width: 300px;
+    height: 200px;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+#locations {
+    background-image: url("./resources/img-locations-background.webp");
+    width: 1200px;
+    height: 550px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    gap: 15px;
+
+}
+
+#locations h2 {
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+
+#section2 h2 {
+    padding-top: 20px;
+}
+
+.address {
+    background-color: black;
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+footer {
+    float: left;
+    margin-left: 20px;
+}
+
+a {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell; 
 }
